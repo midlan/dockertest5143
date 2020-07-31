@@ -2,5 +2,5 @@
 
 set -v
 
-docker build -t $IMAGE_NAME --build-arg robert=$robert .
+docker build -t $IMAGE_NAME --build-arg milan=ahoj2 --build-arg robert=cau .
 
